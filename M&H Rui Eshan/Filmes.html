@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="LoadFilmes.js"></script>
+  <script src="geral.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body id="bodymov" onload="getMovies(), getpfp()" style="background-color: rgb(85, 85, 85); background-size: cover;" >
+
+  <div class="hstack gap-2">
+    <div style="margin: 15px;  background-color: rgb(85, 85, 85); "  class="dropdown col">
+      <a class="btn btn-secondary dropdown-toggle" style="color: wheat; background-color: rgb(85, 85, 85); "href="#" role="button" data-bs-toggle="dropdown" > Menu
+      </a>
+
+      <ul style="font-size: 16px; background-color: rgb(rgb173, 173, 173);" class="dropdown-menu">
+        <li style="margin-left: 15px;"><a class="nav-link active" aria-current="page" href="#">Filmes</a></li>
+        <li style="margin-left: 15px;"><a class="nav-link" href="Adicionar.html">Adicionar Filme</a></li>
+      </ul>
+    </div>
+    <img id="pfp" onclick="openProfile()" class="pfp" src="yes.jpg" alt="">
+  </div>
+  <h1 class="text-center col" style="color: wheat; background-color: rgb(85, 85, 85); font-size: 60px;">M&H</h1>
+
+</body>
+
+</html>

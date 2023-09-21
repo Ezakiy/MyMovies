@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="Script.js"></script>
+  <script src="geral.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body style="background-color: black; color: white;" onload=" getpfp()">
+
+  <div class="hstack gap-2">
+    <div style="margin: 5px; " class="dropdown col">
+      <a class="btn btn-secondary dropdown-toggle" style="background-color:black " href="#" role="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Menu
+      </a>
+
+      <ul style="font-size: 20px;" class="dropdown-menu">
+        <li style="margin-left: 10px;"><a class="nav-link active" aria-current="page" href="Filmes.html">Filmes</a></li>
+        <li style="margin-left: 10px;"><a class="nav-link" href="Adicionar.html">Add Movie</a></li>
+      </ul>
+    </div>
+    <img id="pfp" onclick="openProfile(), checklogin()" class="pfp" src="yes.jpg" alt="">
+  </div>
+    <h1 class="text-center col">M&H</h1>
+
+  
+
+  <div class="text-center">
+
+    <div style="width: 40%;" class="card p-3 mx-auto">
+      <img id="imgprofilepic" src="yes.jpg" class="" alt="...">
+      <div class="card-body " style="background-color: black;">
+        <h5 style="color: rgb(255, 255, 255);" id="titulo" class="card-title">só nos testes</h5>
+        <p style="color: rgb(255, 255, 255);" class="card-text" id="bio"></p>
+        <p style="color: rgb(255, 255, 255);" id="conteudo" class="card-text">só nos testes</p>
+        <a href="Editaccount.html" class="btn btn-outline-warning">editar conta</a>
+        <a onclick="logout()" class="btn btn-outline-warning">Log out</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

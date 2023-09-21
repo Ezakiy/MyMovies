@@ -1,0 +1,72 @@
+.pos{
+    position: absolute;
+    top: 325px;
+}
+.pos1{
+    position: absolute;
+    top:150px;
+}
+
+.pos2{
+    position: absolute;
+    top:50px;
+}
+.imagem {
+    width: auto;
+    max-width: 85%;
+    height: 285px;
+    margin: 3%;
+}
+
+.titulo {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.descr {
+    color: black;
+}
+
+.pfp {
+
+    border-radius: 50%;
+    width: 80px;
+    height: 65px;
+    margin: 5px;
+
+    position: relative;
+}
+
+
+
+.compfp {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    
+}
+
+.commsuserinfo {
+    display: flex;
+    align-items: center;
+}
+
+.commdt {
+    margin-top: 4px;
+}
+
+.content {
+    list-style-type: none;
+}
+
+.imgmovie {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
+
+
